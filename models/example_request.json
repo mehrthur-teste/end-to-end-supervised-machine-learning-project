@@ -1,0 +1,24 @@
+{
+  "customer": {
+    "Zip Code": "92308",
+    "Gender": "Male",
+    "Senior Citizen": "No",
+    "Partner": "No",
+    "Dependents": "No",
+    "Tenure Months": 35,
+    "Phone Service": "No",
+    "Multiple Lines": "No phone service",
+    "Internet Service": "DSL",
+    "Online Security": "No",
+    "Online Backup": "No",
+    "Device Protection": "Yes",
+    "Tech Support": "No",
+    "Streaming TV": "Yes",
+    "Streaming Movies": "Yes",
+    "Contract": "Month-to-month",
+    "Paperless Billing": "No",
+    "Payment Method": "Electronic check",
+    "Monthly Charges": 49.2,
+    "Total Charges": 1701.65
+  }
+}
