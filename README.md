@@ -196,8 +196,9 @@ Edit the example JSON to enter the customer's data. See `api/README.md` for the 
 
 | File | Purpose |
 | --- | --- |
-| `Group4.ipynb` | Executed notebook with 20 reviewed predictors, EDA, four models and interpretations |
-| `ML_Group4_Report.docx` | Editable technical report |
+| `Group4.ipynb` | Executed notebook with 20 predictors, four models, bootstrap, cost, calibration, threshold and permutation diagnostics |
+| `ML_Group4_Report.docx` | Technical report with diagnostic appendices |
+| `requirements-revised.txt` | Exact package versions for the integrated revision, also recorded in requirements.txt |
 | `Group4.pdf` | Technical report for submission |
 | `models/churn_pipeline.joblib` | Fitted CV-selected model, including preprocessing |
 | `models/schema.json` | Input fields, categories and training versions |
@@ -205,3 +206,5 @@ Edit the example JSON to enter the customer's data. See `api/README.md` for the 
 | `api/server.py` | Local prediction API |
 
 The feature review removed constant and repeated geographic fields and treats ZIP Code as a category. Model selection uses training-only stratified CV. The same test split was examined before this review, so the revised results should be confirmed on new independent data before deployment.
+
+The November 8 revision was executed in full before synchronizing the report and model export. Bootstrap intervals and training diagnostics describe exploratory uncertainty and interpretation. The default prediction rule is retained. Baseline-tree results can vary across package versions. Use this notebook execution consistently for report tables.
