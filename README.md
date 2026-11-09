@@ -199,7 +199,7 @@ Edit the example JSON to enter the customer's data. See `api/README.md` for the 
 | `Group4.ipynb` | Executed notebook with 19 predictors, four models, bootstrap, cost, calibration, threshold and permutation diagnostics |
 | `ML_Group4_Report.docx` | Technical report with diagnostic appendices |
 | `requirements-revised.txt` | Exact package versions for the integrated revision, also recorded in requirements.txt |
-| `Group4.pdf` | Technical report for submission |
+| `ML_Group4_Report.docx.pdf` | Technical report for submission |
 | `models/churn_pipeline.joblib` | Fitted CV-selected model, including preprocessing |
 | `models/schema.json` | Input fields, categories and training versions |
 | `models/example_request.json` | Example prediction request; ZIP Code is excluded |
